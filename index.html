@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <article id="current-forecast">
+        <h1 class="city">City Name</h1>
+        <p class="temp">Temp</p>
+        <p class="description">Descr</p>
+        <p class="min-max-temp">High Low</p>
+      </article>
+      <article id="hourly-forecast">
+        <h1>Hourly forecast</h1>
+        <section class="hourly-container">
+          <article>
+            <h2 class="time">Now</h2>
+            <img class="icon" />
+            <p class="hourly-temp">temp</p>
+          </article>
+        </section>
+      </article>
+      <article id="five-day-forecast">
+        <h1>5 day forecast</h1>
+        <section class="five-day-forecast-container">
+          <article class="day-wise-forecast">
+            <h3 class="day">Today</h3>
+            <img class="icon" src="" alt="" />
+            <p class="min-temp">low</p>
+            <p class="max-temp">high</p>
+          </article>
+          <article class="day-wise-forecast">
+            <h3 class="day">Day</h3>
+            <img src="" alt="" />
+            <p class="min-temp">low</p>
+            <p class="max-temp">high</p>
+          </article>
+        </section>
+      </article>
+      <article id="feels-like">
+        <h1>Feels like</h1>
+        <p class="feels-like-temp">temp</p>
+      </article>
+      <article id="humidity">
+        <h1>humidity</h1>
+        <p class="humiva">values</p>
+      </article>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
